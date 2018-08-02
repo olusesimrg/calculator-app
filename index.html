@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Calculator </title>
+	<meta name='description' content='A javaScript Calculator'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	
+</head>
+
+
+<body>
+	<div class="container">
+			<!-- <div><h1 id="head"> GEE CALCULATOR </h1> </div> -->
+		<div class="main"> 
+			<div class="board">
+				<!-- <h2 id="display">0<h2> -->
+				<input type="text" class="dboard" id="display" value="0" maxlength="0">
+				<input type="text" class="dboard" id= "solve" maxlength="0">
+			</div>
+		</div>
+	<div class="history" id="nav">
+			<h4 class="">v</h4>
+	</div>
+			<div class="pad">
+				<table>
+					<tr> 
+						<td><button id="clear" class="change-color">c</button></td>
+						<td><button id="div" class="change-color">/</button></td>
+						<td><button id="mult" class="change-color">*</button></td>
+						<td><button id="back" class="change-color">b</button></td>
+					</tr>
+					<tr> 
+						<td><button id="num-1">1</button></td>
+						<td><button id="num-2">2</button></td>
+						<td><button id="num-3">3</button></td>
+						<td><button id="sum" class="change-color">+</button></td>
+					</tr>
+					<tr> 
+						<td><button id="num-4">4</button></td>
+						<td><button id="num-5">5</button></td>
+						<td><button id="num-6">6</button></td>
+						<td><button id="subt" class="change-color">-</button></td>
+					</tr>
+					<tr> 
+						<td><button id="num-7">7</button></td>
+						<td><button id="num-8">8</button></td>
+						<td><button id="num-9">9</button></td>
+						<td rowspan="2"><button id="result">=</button></td>
+					</tr>
+					<tr>
+						<td colspan="2"><button id="num-0">0</button></td>
+						<td><button id="dot">.</button></td>
+					</tr>
+				</table>	
+			</div>
+
+		<div class="scientific">
+			<div class="control">
+				<table class="aa">
+					<tr>
+						<td><button id="num-%">sin</button></td>
+						<td><button id="num-x#">cos</button></td>
+						<td><button id="num-X3">tan</button></td> 	
+					</tr>
+					<tr> 
+						<td><button id="clear">%</button></td>
+						<td><button id="div">X2</button></td>
+						<td><button id="mult">X3</button></td>	
+					</tr>
+					<tr> 
+						<td><button id="num-4">in</button></td>
+						<td><button id="num-5">log</button></td>
+						<td><button id="num-6">!</button></td>
+					</tr>
+					<tr> 
+						<td><button id="num-7">n</button></td>
+						<td><button id="num-8">e</button></td>
+						<td><button id="num-9">^</button></td>
+					</tr>
+					<tr>
+						<td><button id="nu">(</button></td>
+						<td><button id="dot">)</button></td>
+						<td><button id="dot">></button></td>
+					</tr>
+				</table>	
+			</div>
+		</div>
+			<!-- <div class="main">
+				<ul>
+				<li><button id="clear">c</button></li>
+				<li><button id="div">/</button></li>
+				<li><button id="mul">*</button></li>
+				<li><button id="back">b</button></li><br>
+				</ul>
+				<button id="num-1">1</button>
+				<button id="num-2">2</button>
+				<button id="num-3">3</button>
+				<button id="add">+</button><br>
+				<button id="num-4">4</button>
+				<button id="num-5">5</button>
+				<button id="num-6">6</button>
+				<button id="sub">-</button><br>
+				<button id="num-7">7</button>
+				<button id="num-8">8</button>
+				<button id="num-9">9</button>
+				<button id="result">=</button><br>
+				<button id="num-0">0</button>
+				<button id="dot">.</button>
+		</div>  -->
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html> 
